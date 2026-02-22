@@ -118,9 +118,6 @@ rss:
     - id: "apple-news"
       name: "Apple 台灣新聞"
       url: "https://www.apple.com/tw/newsroom/rss-feed.rss"
-    - id: "xiaomi"
-      name: "小米官方動態"
-      url: "https://rsshub-production-95d6.up.railway.app/weibo/user/2202387347"
     
     # --- 桃園新聞 ---
     - id: "tycg-news"
@@ -157,10 +154,6 @@ rss:
     - id: "pcadv"
       name: "電腦王"
       url: "http://feeds.feedburner.com/pcadv"
-      group: "TECH"
-    - id: "engadget"
-      name: "Engadget"
-      url: "http://www.engadgetmobile.com/rss.xml"
       group: "TECH"
     - id: "aotter-girls"
       name: "電獺少女"
@@ -240,10 +233,6 @@ rss:
       name: "桃園市政府-市政新聞"
       url: "https://www.tycg.gov.tw/OpenData.aspx?SN=50C7BB8497F3C8C2"
       group: "桃園新聞"
-    - id: "tycg-latest-official"
-      name: "桃園市政府-最新消息"
-      url: "https://www.tycg.gov.tw/OpenData.aspx?SN=65D106AB5A9DB388"
-      group: "桃園新聞"
     - id: "tycg-activity-official"
       name: "桃園市政府-熱門活動"
       url: "https://www.tycg.gov.tw/OpenData.aspx?SN=6EE17DD61E44335F"
@@ -261,10 +250,6 @@ rss:
     - id: "gamme-sexy"
       name: "宅宅新聞-正妹"
       url: "http://news.gamme.com.tw/category/hotchick/feed"
-      group: "Sexy"
-    - id: "ptt-beauty-atom"
-      name: "PTT Beauty 板"
-      url: "https://www.ptt.cc/atom/Beauty.xml"
       group: "Sexy"
 
     # --- Blockchain ---
@@ -285,10 +270,6 @@ rss:
     - id: "techcrunch"
       name: "TechCrunch"
       url: "http://feeds.feedburner.com/Techcrunch"
-      group: "SNS"
-    - id: "inside-tw"
-      name: "Inside 硬塞的網路趨勢"
-      url: "http://www.inside.com.tw/feed"
       group: "SNS"
     - id: "techorange"
       name: "TechOrange | 科技報橘"
@@ -356,7 +337,7 @@ report:
 
   rank_threshold: 5                   # 排名高亮阈值
 
-  max_news_per_keyword: 0             # 每个关键词最大显示数量（0=不限制）
+  max_news_per_keyword: 5             # 每个关键词最大显示数量（0=不限制）
 
 
 # ===============================================================
