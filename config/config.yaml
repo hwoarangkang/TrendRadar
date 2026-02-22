@@ -11,14 +11,15 @@
 # 1. 基础设置
 # ===============================================================
 app:
-  # 时区配置（影响所有时间显示、调度系统判断、数据存储）
-  # 常用时区：
-  #   - Asia/Shanghai (北京时间 UTC+8)
-  #   - America/New_York (美东时间 UTC-5/-4)
-  #   - Europe/London (伦敦时间 UTC+0/+1)
-  # 完整时区列表: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-  timezone: "Asia/Shanghai"
-  show_version_update: true           # 显示版本更新提示
+  # 時區配置（影響所有時間顯示、排程系統判斷、資料儲存）
+  # 常用時區：
+  #   - Asia/Taipei (台北時間 UTC+8)
+  #   - Asia/Shanghai (北京時間 UTC+8)
+  #   - America/New_York (美東時間 UTC-5/-4)
+  #   - Europe/London (倫敦時間 UTC+0/+1)
+  # 完整時區列表: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  timezone: "Asia/Taipei"
+  show_version_update: true           # 顯示版本更新提示
 
 
 # ===============================================================
@@ -597,7 +598,7 @@ ai_analysis:
   # 分析报告输出语言
   # 格式：自然语言描述
   # 示例: "English", "Korean", "法语"
-  language: "Chinese"
+  language: "繁體中文（台灣）"
 
   # 提示词配置文件路径（相对于 config 目录）
   prompt_file: "ai_analysis_prompt.txt"
