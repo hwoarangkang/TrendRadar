@@ -155,6 +155,8 @@
 
 /胖东来|于东来/ => 胖东来
 
+/剪映|抖音|即夢|\bSeedance\b/ => Seedance 2.0
+
 /深度求索|幻方量化|梁文锋|\bDeepSeek\b/ => DeepSeek
 
 /华为|任正非|余承东|鸿蒙|海思|昇腾|鲲鹏|\bHUAWEI\b|\bHarmonyOS\b|\bHiSilicon\b/ => 华为
@@ -211,6 +213,7 @@
 日本
 朝鲜
 韩国
+台灣
 
 [北美]
 美国
